@@ -121,7 +121,7 @@ const Page = (props: Props) => {
           </div> */}
         </div>
         <div className="w-full flex-1 overflow-y-scroll z-8">
-          <div className="grid grid-cols-4 gap-2 justify-evenly pt-3 px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 justify-evenly pt-3 px-8">
             {filteredCampaigns.map((campaign, index) => (
               <div
                 key={index}
