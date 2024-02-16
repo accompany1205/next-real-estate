@@ -1,0 +1,121 @@
+{
+  "navbar": {
+    "main": [
+      {
+        "name": "Signboard",
+        "codeName": "signboard",
+        "icon": "CgPolaroid",
+        "subsections": [
+          {
+            "name": "Design",
+            "codeName": "design",
+            "url": "/signboard/design",
+            "icon": "MdPalette"
+          },
+          {
+            "name": "Installation",
+            "codeName": "installation",
+            "url": "/signboard/installation",
+            "icon": "MdBuild"
+          }
+        ]
+      },
+      {
+        "name": "Newspaper",
+        "codeName": "newspaper",
+        "icon": "FaNewspaper",
+        "subsections": [
+          {
+            "name": "Advertise",
+            "codeName": "advertise",
+            "url": "/newspaper/advertise",
+            "icon": "MdDiversity2"
+          },
+          {
+            "name": "Editorials",
+            "codeName": "editorials",
+            "url": "/newspaper/editorials",
+            "icon": "MdEdit"
+          }
+        ]
+      },
+      {
+        "name": "Flyers",
+        "codeName": "flyers",
+        "icon": "HiOutlineDocumentText",
+        "subsections": [
+          {
+            "name": "Design",
+            "codeName": "design",
+            "url": "/flyers/design",
+            "icon": "MdDirectionsWalk"
+          },
+          {
+            "name": "Distribution",
+            "codeName": "distribution",
+            "url": "/flyers/distribution",
+            "icon": "MdDevicesOther"
+          }
+        ]
+      },
+      {
+        "name": "Proposal",
+        "codeName": "proposal",
+        "icon": "CgFileDocument",
+
+        "subsections": [
+          {
+            "name": "Introduction",
+            "codeName": "introduction",
+            "url": "/proposal/introduction",
+            "icon": "MdInfo"
+          },
+          {
+            "name": "Objectives",
+            "codeName": "objectives",
+            "url": "/proposal/objectives",
+            "icon": "MdCheckCircle"
+          }
+        ]
+      },
+      {
+        "name": "Social Media",
+        "codeName": "socialmedia",
+        "icon": "FaMeta",
+        "subsections": [
+          {
+            "name": "Marketing",
+            "codeName": "marketing",
+            "url": "/socialmedia/marketing",
+            "icon": "MdCalendarViewMonth"
+          },
+          {
+            "name": "Content",
+            "codeName": "content",
+            "url": "/socialmedia/content",
+            "icon": "MdDescription"
+          }
+        ]
+      },
+      {
+        "name": "Business Cards",
+        "codeName": "businesscards",
+        "icon": "FaAddressCard",
+        "subsections": [
+          {
+            "name": "Design",
+            "codeName": "design",
+            "url": "/businesscards/design",
+            "icon": "MdBrokenImage"
+          },
+          {
+            "name": "Printing",
+            "codeName": "printing",
+            "url": "/businesscards/printing",
+            "icon": "MdPrint"
+          }
+        ]
+      }
+    ]
+  }
+}

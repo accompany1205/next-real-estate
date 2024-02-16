@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+@font-face {
+  font-family: "Myanmar-Khyay";
+  src: url("/assets/fonts/Myanmar-Khyay.ttf.woff") format("woff"),
+    url("/assets/fonts/Myanmar-Khyay.ttf.svg#Myanmar-Khyay") format("svg"),
+    url("/assets/fonts/Myanmar-Khyay.ttf.eot"),
+    url("/assets/fonts/Myanmar-Khyay.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.link {
+  @apply flex items-center gap-3 group-active:text-white hover:text-white transition-all;
+}
+
+.link-2 {
+  @apply cursor-pointer hover:text-white  transition-all;
+}
+
+.link2-active {
+  @apply cursor-pointer text-white font-medium transition-all;
+}
+
+.btn-1 {
+  @apply border border-borderC w-max capitalize bg-[#1E1E1E] text-[#707070] py-3 px-[3rem] rounded-xl hover:text-white transition-all;
+}
+
+.btn-1-active {
+  @apply border border-borderC w-max capitalize bg-[#1E1E1E]  py-3 px-[3rem] rounded-xl text-white transition-all;
+}
+
+.fabric-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.border-element {
+  font-family: "Myanmar Khyay", sans-serif;
+  font-weight: 400;
+  @apply bg-transparent border-borderC border  rounded-xl capitalize outline-none p-1 text-[.9rem] px-2 placeholder:text-[#707070];
+}
+
+.button-glow {
+  @apply border-white border px-4 py-2 rounded-xl bg-dark;
+  filter: drop-shadow(1px 2px 7px rgba(203, 203, 203, 0.6));
+}
+
+.label {
+  font-family: "Myanmar Khyay", sans-serif;
+  font-weight: 400;
+  @apply text-white pt-1 pl-1 text-[.9rem];
+}
+
+.font-Myanmar {
+  font-family: "Myanmar Khyay", sans-serif;
+  font-weight: 400;
+}
+
+.sidemenu {
+  @apply w-[20vw] bg-gradient-to-t from-[#161616] to-[#232323] h-screen  drop-shadow-lg shadow-lg  flex justify-between flex-col text-textC fixed top-0 left-0 bottom-0 z-[2000] border-r-2 border-borderC;
+}
+
+.submit {
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #232323 0%, rgba(51, 51, 51, 0) 100%);
+  border: 1px solid #515151;
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  @apply py-1 px-4 capitalize flex items-center justify-center;
+}
+
+.cancel {
+  box-sizing: border-box;
+  /* background: linear-gradient(180deg, #232323 0%, rgba(51, 51, 51, 0) 100%); */
+  /* border: 1px solid #515151; */
+  /* box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.2); */
+  border-radius: 10px;
+  @apply py-1 px-4 capitalize flex items-center justify-center hover:underline transition-all;
+}
+
+.page {
+   
+  @apply w-screen h-screen flex items-center justify-center pl-[20vw] overflow-hidden relative bg-[#232323];
+}
+
+.page-bg {
+ 
+  @apply w-screen h-screen flex items-center justify-center pl-[20vw] overflow-hidden relative   bg-gradient-to-l from-[#1A1A1A] to-[#000000];
+}
+
+.bg-liner {
+   @apply bg-gradient-to-l from-[#1A1A1A] to-[#000000];
+}
+
+.li-nav {
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.45));
+}
+
+.nav-link {
+  font-family: "Myanmar Khyay", sans-serif;
+  font-weight: 400;
+  @apply hover:border-white border px-4 py-2 rounded-xl hover:bg-dark border-transparent transition-all bg-transparent;
+}
+
+
+.nav-link-active {
+  font-family: "Myanmar Khyay", sans-serif;
+  font-weight: 400;
+  filter: drop-shadow(1px 2px 7px rgba(203, 203, 203, 0.6));
+  border: 1px solid #C0BCCA;
+  @apply  border px-4 py-2 rounded-xl bg-dark;
+}
+
+.h1 {
+  font-family: "Myanmar Khyay", sans-serif;
+  font-weight: 800;
+  @apply text-white uppercase text-[1.2rem];
+}
+
+.text-span {
+  @apply text-[#707070];
+}
+
+* ::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+* ::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+* ::-webkit-scrollbar-thumb {
+  background-color: transparent;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #363636;  /* creates padding around scroll thumb */
+}
