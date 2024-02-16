@@ -1,52 +1,58 @@
 {
   "campaigns": [
     {
-      "name": "Winter Clothing Drive",
-      "address": "456 Frosty Lane, Snowtown",
+      "name": "25A GURRS ROAD, BEULAH PARK",
+      "address": "25A GURRS ROAD, BEULAH PARK",
       "date": "2024-01-15",
       "image": "/assets/img/campaign/1.png"
     },
     {
       "name": "Community Clean-Up",
-      "address": "789 Greenfield Ave, Cleanville",
+      "address": "117 CAMBRIDGE TERRACE, MALVERN",
       "date": "2024-02-28",
       "image": "/assets/img/campaign/2.png"
     },
     {
       "name": "Food Bank Fundraiser",
-      "address": "123 Harvest Blvd, Foodville",
+      "address": "3 GARDEN AVENUE, BRUNSIDE",
       "date": "2024-03-20",
       "image": "/assets/img/campaign/3.png"
     },
     {
       "name": "Educational Workshop",
-      "address": "567 Knowledge Street, Learntown",
+      "address": "48 MITCHELL STREET, MILLSWOOD",
       "date": "2024-04-10",
       "image": "/assets/img/campaign/4.png"
     },
     {
       "name": "Health and Fitness Expo",
-      "address": "890 Wellness Lane, Fitcity",
+      "address": "12 COACH ROAD, AULDANA",
       "date": "2024-05-05",
       "image": "/assets/img/campaign/5.png"
     },
     {
       "name": "Arts and Crafts Fair",
-      "address": "234 Creativity Ave, Artsville",
+      "address": "4 ELIZABETH STREET, BURNSIDE",
       "date": "2024-06-18",
       "image": "/assets/img/campaign/6.png"
     },
     {
       "name": "Environmental Awareness Campaign",
-      "address": "678 Eco Street, Greenfield",
+      "address": "2A RUTLAND AVENUE, UNLEY PARK",
       "date": "2024-07-22",
       "image": "/assets/img/campaign/7.png"
     },
     {
       "name": "Senior Citizens Social Gathering",
-      "address": "901 Wisdom Lane, Eldertown",
+      "address": "31 COMMERCIAL ROAD, HYDE PARK",
       "date": "2024-08-15",
       "image": "/assets/img/campaign/8.png"
+    },
+    {
+      "name": "Senior Citizens Social Gathering",
+      "address": "14 GRENACHE AVENUE, MODBURY ",
+      "date": "2024-08-15",
+      "image": "/assets/img/campaign/9.png"
     }
   ]
 }
